@@ -1,0 +1,27 @@
+Home
+  - Informação falando que é uma empresa de bicicleta
+  - Prévia dos principais produtos (pois o objetivo do cliente é apresentar os produtos)
+  - Prévia das principais bicicletas já construídas (botão levando para clientes)
+  - Um pouco da história (com um botão levando para a página sobre)
+  - Falando sobre o orçamento (botão chamando o cliente para entrar em contato)
+
+Sobre
+  - Missão, Visão, Valores
+  - História (falar sobre a montagem das bicicletas)
+
+Produto
+  - Passeio
+  - Esporte
+  - Retrô
+  - Orçamento (pedido)
+
+Clientes
+  - Mostrar portifólio
+
+Contato
+  - Orçamento (pedido)
+  - Endereço, Telefone e E-mail
+  - Trabalhe Conosco
+
+Rodapé
+  - Meios de contato
