@@ -1,0 +1,11 @@
+Estilo
+Geométrico nas formas, orgânico na tipografia
+
+Tipografia
+Utilizar Arial (sans-serif) principalmente para títulos
+e botões, e Georgia (serif) para algumas partes de texto
+e maior leitura
+
+Cores
+#f3c63e
+#000000
