@@ -25,6 +25,30 @@ p {
 	border-color: #FFF;
 }
 
+.btn.btn-preto:hover {
+	color: #000;
+	border-color: #000
+}
+
+.subtitulo {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px auto;
+}
+
 /* Header */
 
 .header {
@@ -33,6 +57,7 @@ p {
 	width: 100%;
 	background-color: #F3C63E;
 	padding: 15px 0;
+	z-index: 10;
 }
 
 .header-menu {
@@ -104,4 +129,52 @@ p {
 	font-size: 14px;
 	letter-spacing: .1em;
 	text-transform: uppercase;
+}
+
+/* Produtos */
+/* pode dar problemas depois TODO: remover section*/
+section.produtos {
+	padding: 60px 0;
+}
+
+.produtos-lista li {
+	background: #fec63e;
+	text-align: center;
+}
+
+.produtos-lista li h3 {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 20px;
+}
+
+.produtos-lista li h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 2px auto;	
+}
+
+.produtos-lista li p {
+	padding: 10px 20px 20px;
+}
+
+.produtos-icone {
+	padding: 20px;
+	background: #000;
+}
+
+.call-to-action {
+	padding-top: 40px;
+	text-align: center;
+	clear: both;
+}
+
+.call-to-action p{
+	margin-bottom: 20px;
 }
