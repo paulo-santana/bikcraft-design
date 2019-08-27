@@ -45,6 +45,7 @@
 }
 
 .produto-info p {
+	height: 180px;
 	padding: 30px 40px;
 	font-size: 18px;
 	line-height: 25px;
@@ -55,9 +56,20 @@
 	float: left;
 	width: 229px;
 	height: 49px;
+	padding-top: 15px;
 	background: #F3C63E;
 	font-size: 18px;
 	line-height: 20px;
 	text-transform: uppercase;
 	text-align: center;
+	font-weight: bold;
+}
+
+.produto-info ul li:nth-child(1), 
+.produto-info ul li:nth-child(2) {
+	margin-bottom: 2px;
+}
+
+.produto-info ul li:nth-child(even) {
+	margin-left: 2px;
 }
