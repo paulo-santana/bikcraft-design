@@ -57,7 +57,7 @@
 	width: 229px;
 	height: 49px;
 	padding-top: 15px;
-	background: #F3C63E;
+	background: #fec63e;
 	font-size: 18px;
 	line-height: 20px;
 	text-transform: uppercase;
@@ -72,4 +72,29 @@
 
 .produto-info ul li:nth-child(even) {
 	margin-left: 2px;
+}
+
+/* Orçamento */
+
+.orcamento {
+	width: 100%;
+	margin-top: 60px;
+	background: #000;
+}
+
+.orcamento h2 {
+	color: #fec63e;
+}
+
+.orcamento h2:after {
+	background: #fec63e;
+	
+}
+
+.form {
+	padding-right: 60px;
+}
+
+.form label {
+
 }

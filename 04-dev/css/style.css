@@ -15,9 +15,9 @@ img {
 }
 
 .btn {
-	border: 3px solid #F3C63E;
+	border: 3px solid #fec63e;
 	padding: 10px 30px;
-	color: #F3C63E;
+	color: #fec63e;
 	font-size: 14px;
 	line-height: 20px;
 	text-transform: uppercase;
@@ -77,7 +77,7 @@ img {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background-color: #F3C63E;
+	background-color: #fec63e;
 	padding: 10px 0;
 	z-index: 10;
 }
