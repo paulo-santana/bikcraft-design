@@ -79,6 +79,7 @@
 .orcamento {
 	width: 100%;
 	margin-top: 60px;
+	padding-top: 40px;
 	background: #000;
 }
 
@@ -88,7 +89,6 @@
 
 .orcamento h2:after {
 	background: #fec63e;
-	
 }
 
 .form {
