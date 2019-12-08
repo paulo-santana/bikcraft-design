@@ -12,6 +12,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .btn {
@@ -109,8 +110,8 @@ img {
 .header-menu ul li a.menu-ativo {
   color: #fff;
 }
-/* Introdução*/
 
+/* Introdução */
 .introducao {
   height: 380px;
   width: 100%;
