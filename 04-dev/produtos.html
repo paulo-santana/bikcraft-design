@@ -120,18 +120,44 @@
     <section class="orcamento">
       <div class="container">
         <h2 class="subtitulo">Orçamento</h2>
-        <form action="" class="form grid-8" id="form-orcamento">
+        <form
+          method="POST"
+          action="./enviar.php"
+          class="form grid-8 form-php"
+          id="form-orcamento"
+        >
           <div>
             <label for="nome">Nome</label>
-            <input type="text" id="nome" />
+            <input type="text" name="nome" id="nome" required />
           </div>
           <div>
             <label for="email">E-mail</label>
-            <input type="text" id="email" />
+            <input type="type" name="email" id="email" required />
           </div>
           <div>
             <label for="telefone">telefone</label>
-            <input type="text" id="telefone" />
+            <input type="text" name="telefone" id="telefone" />
+          </div>
+          <div>
+            <label class="nao-aparece" for="leaveblank">
+              Se você não é um robô, deixe em branco
+            </label>
+            <input
+              type="text"
+              class="nao-aparece"
+              name="leaveblank"
+              id="leaveblank"
+            />
+            <label class="nao-aparece" for="dontchange">
+              Se você não é um robô, não mude esse campo
+            </label>
+            <input
+              type="text"
+              class="nao-aparece"
+              name="dontchange"
+              value="http://"
+              id="dontchange"
+            />
           </div>
           <div>
             <label for="mensagem">Mensagem</label>
@@ -140,10 +166,13 @@
               id="mensagem"
               cols="30"
               rows="10"
+              required
             ></textarea>
           </div>
           <div>
-            <button type="submit" class="btn">Enviar</button>
+            <button id="enviar" name="enviar" type="submit" class="btn">
+              Enviar
+            </button>
           </div>
         </form>
         <div class="dados-orcamento grid-8">
@@ -230,6 +259,7 @@
     </footer>
 
     <script src="js/simple-anime.js"></script>
+    <script src="js/simple-form.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
